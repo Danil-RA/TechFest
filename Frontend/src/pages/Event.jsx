@@ -10,7 +10,7 @@ function Events() {
     const loadEvents = async () => {
         try {
             const response = await fetch(
-                "http://localhost:5000/api/events"
+                "https://techfest-backend-7otn.onrender.com/api/events"
             );
 
             const data = await response.json();
